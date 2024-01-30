@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aanchal-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <div class="logo">
+                <p>AANCHAL</p>
+            </div> 
+        
+          <ul id="sidemenu">
+             <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+            <i class="fa-solid fa-bars" onclick ="openmenu()"></i>
+        </nav>
+          <div class="header-text">
+          <p>Web developer</p>
+            <h1>Hello. <br>I'm  <span>Aanchal</span><br>Chandak</h1>
+         </div>
+    
+        </div>
+    </div>
+
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/aanchal.jpg">
+                </div>
+                 <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate web developer with a keen eye for design and a flair for creating seamless, user-friendly digital experiences.
+                         With a strong foundation in front-end technologies, specialize in turning ideas into beautifully crafted websites and web application.</p>
+                         <div class="tab-titles">
+                            
+                            <p class="tab-links active-link">Education</p>
+                         </div>
+                         <div class="tab-contents">
+                            <ul>
+                                <li><span>BCA-CTIS </span><br> ITM University, Raipur - Pursuing</li>
+                                <li><span>12th </span><br>Model English H S school
+                                    CG Board 2020-21</li>
+                                <li><span>10th </span><br>Model English H S school
+                                    CG Board 2018-19</span></li>
+                            </ul>
+                        </div>
+                 </div>
+            </div>
+        </div>
+
+    </div>
+
+   <!--skills------>
+   <div id="skills">
+    <div class="container">
+        <h1 class="sub-titile">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web technologies</h2>
+                <p> • HTML <br>
+                    • CSS <br>
+                    • JAVASCRIPT</p>
+            </div>
+            <div>
+                <h2>Programming language</h2>
+                <p> • C <br> 
+                    • Python</p>
+            </div>
+            <div>
+                <h2>Certificates</h2>
+                <p> • Front End Development -HTML<br>
+                    • Cloud Foundation <br>
+                    • Oracle Cloud Data Management 2023 Certified Foundations Associate<br>
+                    • Oracle Cloud Infrastructure 2023 Certified Foundations Associate.
+                    </p>
+            </div>
+
+        </div>
+    </div>
+   </div>
+  <!---project-->
+  <div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/p.1.png">
+                <div class = "layer">
+                <h3>Amazon Clone</h3>
+                <p>Bulding Amazon Clone Project using HTML & CSS</p>
+                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="img/p.2.png">
+                <div class = "layer">
+                    <h3>Netflix Clone</h3>
+                    <p>Bulding Netflix Clone Project using HTML & CSS</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/p.3.png">
+                <div class = "layer">
+                    <h3>Makar Sankranti</h3>
+                    <p>Bulding Makar Sankranti Project using HTML & CSS</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+
+  <!----contant-->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aanchalchandak186@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aanchal-chandak-192878264/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/aanchalchandak03/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/aanchal0309?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                    <a href="img/Aanchal Chandak Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <buttom type="submit" class="btn btn2">Submit</buttom>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+       <div class="copyright">
+        <p> copyright &copy; 2024 Aanchal.  </p>
+       </div>
+  </div>
+<script>
+  var sidemeu =document.getElementById("sidemenu");
+  function openmenu(){
+    sidemeu.style.right = "0";
+  }
+  function closemenu(){
+    sidemeu.style.right = "-200px";
+  }
+</script>
+  
+</body>
+</html>
